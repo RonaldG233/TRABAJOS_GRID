@@ -1,0 +1,33 @@
+@import url(style0.css);
+
+.grid-area{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 30px 1fr ;
+    grid-template-areas: 
+    "header   header"
+    "sidebar  content2"
+    "sidebar  content"
+    "sidebar  c"
+    "sidebar  c"
+    "sidebar  c";
+}
+.header{
+    grid-area: header;
+    background-color: rgb(107, 107, 107);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color:rgb(160, 160, 160) ;
+}
+.content2{
+    grid-area: content2;
+    background-color:rgb(44, 42, 42);
+}
+.content_primero{
+    grid-area: content;
+    background-color: rgb(0, 0, 0);
+}

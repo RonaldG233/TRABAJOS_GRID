@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 350px;
+    height: 600px;
+    background-color: #222;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.item{
+    width: calc(350px *3);
+    position: relative;
+    height: 600px;
+    background-color: aliceblue;
+    display: flex;
+}
+.chats{
+    width: 350px;
+    height: 400px;
+
+}
+.chats:nth-child(1){
+    background-color: aquamarine;
+}
+.chats:nth-child(2){
+    background-color: blueviolet;
+}
+.chats:nth-child(3){
+    background-color: burlywood;
+}

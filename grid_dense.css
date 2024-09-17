@@ -1,0 +1,18 @@
+@import url(style0.css);
+.grid-dense{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 150px);
+    grid-auto-flow: row;
+    /* grid-auto-flow: row dense; */
+        /* grid-auto-flow: column; */
+
+}
+.item:nth-child(11){
+    background-color: brown;
+    color: azure;
+    /* grid-row: span 3;
+    grid-column: span 3; */
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
