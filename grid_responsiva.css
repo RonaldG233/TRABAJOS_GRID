@@ -1,0 +1,8 @@
+@import url(style0.css);
+.contenedor{
+    width: 90%;
+}
+.grid_responsiva{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
